@@ -16,6 +16,7 @@ local.properties
 .settings/
 .loadpath
 .project
+*.ucl
 
 # External tool builders
 .externalToolBuilders/
