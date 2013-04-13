@@ -5,7 +5,7 @@ import learn.designpattern.factory.entities.Coffee;
 import learn.designpattern.factory.entities.Lemonade;
 import learn.designpattern.factory.entities.Tea;
 
-public class BeverageFactory {
+public final class BeverageFactory {
 	private final static BeverageFactory instance = new BeverageFactory();
 
 	private BeverageFactory() {

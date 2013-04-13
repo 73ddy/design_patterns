@@ -6,7 +6,7 @@ import learn.designpattern.abstractfactory.beverages.Coffee;
 import learn.designpattern.abstractfactory.beverages.Lemonade;
 import learn.designpattern.abstractfactory.beverages.Tea;
 
-public class BeverageFactory extends AbstractFoodFactory {
+public final class BeverageFactory extends AbstractFoodFactory {
 	private final static BeverageFactory instance = new BeverageFactory();
 
 	private BeverageFactory() {

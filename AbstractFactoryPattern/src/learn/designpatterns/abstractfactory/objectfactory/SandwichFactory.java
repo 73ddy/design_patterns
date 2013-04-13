@@ -6,7 +6,7 @@ import learn.designpattern.abstractfactory.sandwiches.CheeseSandwich;
 import learn.designpattern.abstractfactory.sandwiches.GrilledSandwich;
 import learn.designpattern.abstractfactory.sandwiches.PeanutButterSandwich;
 
-public class SandwichFactory extends AbstractFoodFactory {
+public final class SandwichFactory extends AbstractFoodFactory {
 	private final static SandwichFactory instance = new SandwichFactory();
 
 	private SandwichFactory() {

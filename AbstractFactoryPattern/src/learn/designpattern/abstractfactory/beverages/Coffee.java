@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import learn.designpattern.abstractfactory.abstractentities.Beverage;
 
 
-public class Coffee extends Beverage {
+public final class Coffee extends Beverage {
 	public Coffee() {
 		this.setName("Coffee");
 		this.setPrice(new BigDecimal(10));
